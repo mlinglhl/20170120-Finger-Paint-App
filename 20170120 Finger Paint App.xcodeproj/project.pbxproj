@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		8977DB8D1E32919400875EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8977DB8C1E32919400875EE6 /* main.m */; };
 		8977DB901E32919400875EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8977DB8F1E32919400875EE6 /* AppDelegate.m */; };
-		8977DB931E32919400875EE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8977DB921E32919400875EE6 /* ViewController.m */; };
 		8977DB961E32919400875EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8977DB941E32919400875EE6 /* Main.storyboard */; };
 		8977DB981E32919400875EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8977DB971E32919400875EE6 /* Assets.xcassets */; };
 		8977DB9B1E32919400875EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8977DB991E32919400875EE6 /* LaunchScreen.storyboard */; };
+		8977DBA71E329CFE00875EE6 /* FingerPaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8977DBA61E329CFE00875EE6 /* FingerPaintViewController.m */; };
+		8977DBAA1E32BF8B00875EE6 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8977DBA91E32BF8B00875EE6 /* PaintView.m */; };
+		89E495AD1E32C387006BF18C /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E495AC1E32C387006BF18C /* LineSegment.m */; };
+		89E495B01E331BE2006BF18C /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E495AF1E331BE2006BF18C /* Line.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		8977DB8C1E32919400875EE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8977DB8E1E32919400875EE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8977DB8F1E32919400875EE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8977DB911E32919400875EE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8977DB921E32919400875EE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8977DB951E32919400875EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8977DB971E32919400875EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8977DB9A1E32919400875EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8977DB9C1E32919400875EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8977DBA51E329CFE00875EE6 /* FingerPaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPaintViewController.h; sourceTree = "<group>"; };
+		8977DBA61E329CFE00875EE6 /* FingerPaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerPaintViewController.m; sourceTree = "<group>"; };
+		8977DBA81E32BF8B00875EE6 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		8977DBA91E32BF8B00875EE6 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		89E495AB1E32C387006BF18C /* LineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSegment.h; sourceTree = "<group>"; };
+		89E495AC1E32C387006BF18C /* LineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineSegment.m; sourceTree = "<group>"; };
+		89E495AE1E331BE2006BF18C /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		89E495AF1E331BE2006BF18C /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +69,15 @@
 			children = (
 				8977DB8E1E32919400875EE6 /* AppDelegate.h */,
 				8977DB8F1E32919400875EE6 /* AppDelegate.m */,
-				8977DB911E32919400875EE6 /* ViewController.h */,
-				8977DB921E32919400875EE6 /* ViewController.m */,
 				8977DB941E32919400875EE6 /* Main.storyboard */,
+				8977DBA51E329CFE00875EE6 /* FingerPaintViewController.h */,
+				8977DBA61E329CFE00875EE6 /* FingerPaintViewController.m */,
+				8977DBA81E32BF8B00875EE6 /* PaintView.h */,
+				8977DBA91E32BF8B00875EE6 /* PaintView.m */,
+				89E495AB1E32C387006BF18C /* LineSegment.h */,
+				89E495AC1E32C387006BF18C /* LineSegment.m */,
+				89E495AE1E331BE2006BF18C /* Line.h */,
+				89E495AF1E331BE2006BF18C /* Line.m */,
 				8977DB971E32919400875EE6 /* Assets.xcassets */,
 				8977DB991E32919400875EE6 /* LaunchScreen.storyboard */,
 				8977DB9C1E32919400875EE6 /* Info.plist */,
@@ -105,6 +120,9 @@
 		8977DB801E32919400875EE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					0,
+				);
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Minhung Ling";
 				TargetAttributes = {
@@ -150,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8977DB931E32919400875EE6 /* ViewController.m in Sources */,
+				8977DBA71E329CFE00875EE6 /* FingerPaintViewController.m in Sources */,
+				89E495B01E331BE2006BF18C /* Line.m in Sources */,
+				8977DBAA1E32BF8B00875EE6 /* PaintView.m in Sources */,
+				89E495AD1E32C387006BF18C /* LineSegment.m in Sources */,
 				8977DB901E32919400875EE6 /* AppDelegate.m in Sources */,
 				8977DB8D1E32919400875EE6 /* main.m in Sources */,
 			);
@@ -307,6 +328,7 @@
 				8977DBA11E32919400875EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
